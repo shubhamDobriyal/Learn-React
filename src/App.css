@@ -308,3 +308,123 @@ hr{
   padding-bottom: 5px;
   background-color: rgb(231, 245, 230);
 }
+
+
+
+.todo-container{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.todo-card{
+  background-color: white;
+  width: 30%;
+  height: 80%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  overflow-y: auto;
+  margin-bottom: 5px;
+  border: 2px solid rgb(216, 212, 212);
+  border-radius: 10px
+}
+
+.todo-head{
+  height: 70px;
+  width: 100%;
+  background-color: #254ed3;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+
+.todo-head>h1{
+  color: white;
+  width: 100%;
+  text-align: center;
+  background: transparent;
+  padding: 6px 0px 2px 0px;
+}
+
+.todo-body{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.todo-body>.addNotes{
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.todo-body>.addNotes>input{
+  outline: none;
+  text-align: center;
+  height: 30px;
+  width: 80%;
+  font-size: 20px;
+  font-weight: 500;
+  border: none;
+  border-bottom: 2px solid #6983aa;
+}
+.todo-body>.addNotes>.add-btn{
+  border: none;
+  width : 30px;
+  height: 30px;
+  border-radius: 50%;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #8566aa;
+  color: white;
+}
+
+.todo-body>.addNotes>.add-btn:hover{
+  background-color: #20bf6b;
+}
+
+.todo-body>.list{
+  width: 100%;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-around;
+}
+
+.todo-body>.list>ol>.list-items{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.todo-body>.list>ol{
+  width: 90%;
+}
+.todo-body>.list>ol>.list-items>.del-button{
+  border: none;
+  width : 28px;
+  height: 28px;
+  border-radius: 50%;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #8566aa;
+  color: white;
+}
+
+.todo-body>.list>ol>.list-items>.del-button:hover{
+  background-color: rgba(231, 7, 7, 0.843);
+}
+
+.todo-body>.list>ol>.list-items>li{
+  color: #8566aa;
+  list-style: none;
+  font-weight: 500;
+  font-size: 20px;
+  align-items: center;
+  width: calc(100% - 30px);
+  margin: 5px;
+}
+

@@ -40,6 +40,9 @@ export default function Home(){
                     <li>
                         <Link style={{textDecoration: 'none', color: 'black'}} to="/FormSubmit">Form Submit</Link>
                     </li>
+                    <li>
+                        <Link style={{textDecoration: 'none', color: 'black'}} to="/TodoList">To Do List</Link>
+                    </li>
                 </ul>
             </nav>
         </div>

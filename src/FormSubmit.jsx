@@ -12,7 +12,7 @@ export default function FormSubmit() {
     const handleInput = (event) => {
         const {value, name} = event.target;
         
-        setFullname((prevValue) => 
+        setFullname((prevValue) => {
             return {
                 ...prevValue,
                 [name] : value

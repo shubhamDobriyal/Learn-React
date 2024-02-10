@@ -13,6 +13,7 @@ import IdentityCard from './IdentityCard';
 import reportWebVitals from './reportWebVitals';
 import MusicPlayer from './MusicPlayer';
 import FormSubmit from './FormSubmit';
+import TodoList from './TodoList';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import UseContext from './UseContext';
 
@@ -35,6 +36,7 @@ root.render(
         <Route path="/identityCard" element={<IdentityCard />} />
         <Route path="/challenge1" element={<Challenge1 />} />
         <Route path="/formSubmit" element={<FormSubmit />} />
+        <Route path="/todoList" element={<TodoList />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
