@@ -1,5 +1,4 @@
 import React from "react";
-import './App.css';
 
 const currentDate = new Date().toLocaleDateString();
 const currentTime = new Date().toLocaleTimeString();

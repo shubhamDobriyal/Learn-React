@@ -2,20 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import Ludo from './Ludo';
-import Form from './Form';
+import Ludo from './components/ludo/Ludo';
 import Home from './Home';
-import Events from './Events';
-import Challenge1 from './Challenge1';
-import Gallery from './Gallery';
-import UseEffectHook from './UseEffectHook';
-import IdentityCard from './IdentityCard';
+import Clock from './components/clock/Clock';
+import Gallery from './components/gallery/Gallery';
+import IdentityCard from './components/id-card/IdentityCard';
 import reportWebVitals from './reportWebVitals';
-import MusicPlayer from './MusicPlayer';
-import FormSubmit from './FormSubmit';
-import TodoList from './TodoList';
+import MusicPlayer from './components/music-player/MusicPlayer';
+import TodoList from './components/to-do-list/TodoList';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import UseContext from './UseContext';
 
 
 
@@ -25,17 +20,12 @@ root.render(
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<App />} />
-        <Route path="/UseEffectHook" element={<UseEffectHook />} />
         <Route path="/home" element={<Home />} />
         <Route path="/MusicPlayer" element={<MusicPlayer />} />
-        <Route path="/UseContext" element={<UseContext />} />
         <Route path="/gallery" element={<Gallery />} />
-        <Route path="/events" element={<Events />} />
-        <Route path="/form" element={<Form />} />
         <Route path="/ludo" element={<Ludo />} />
         <Route path="/identityCard" element={<IdentityCard />} />
-        <Route path="/challenge1" element={<Challenge1 />} />
-        <Route path="/formSubmit" element={<FormSubmit />} />
+        <Route path="/clock" element={<Clock />} />
         <Route path="/todoList" element={<TodoList />} />
       </Routes>
     </BrowserRouter>
