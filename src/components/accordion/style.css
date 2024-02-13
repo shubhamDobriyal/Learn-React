@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.accordion-container{
+    background-color: rgb(233, 231, 231);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.accordion-body{
+    width: 50%;
+    height: 90vh;
+    background-color: white;
+    padding: 50px;
+    border: 1px solid;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.accordion-body h1{
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* AccordionBody CSS */
+
+.accordion-div{
+    margin: 15px;
+}
+
+.ques-div{
+    width: 100%;
+    display: flex;
+    background-color: rgb(200, 199, 199);
+    height: 50px;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.ques-div .button{
+    width: 20px;
+    height: 20px;
+    padding: 2px;
+    text-align: center;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.ques-div .ques{
+    width: 90%;
+    font-size: x-large;
+    font-weight: 600;
+}
