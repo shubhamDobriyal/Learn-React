@@ -10,6 +10,8 @@ import IdentityCard from './components/id-card/IdentityCard';
 import reportWebVitals from './reportWebVitals';
 import MusicPlayer from './components/music-player/MusicPlayer';
 import TodoList from './components/to-do-list/TodoList';
+import Accordion from './components/accordion/Accordion';
+import GoogleKeepClone from './components/google-keep-clone/GoogleKeepClone';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 
@@ -27,6 +29,8 @@ root.render(
         <Route path="/identityCard" element={<IdentityCard />} />
         <Route path="/clock" element={<Clock />} />
         <Route path="/todoList" element={<TodoList />} />
+        <Route path="/accordion" element={<Accordion />} />
+        <Route path="/googleKeepClone" element={<GoogleKeepClone />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

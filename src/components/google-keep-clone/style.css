@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    background-color: rgb(255, 225, 0);
+    display: flex;
+    padding: 10px;
+    height: 70px;
+    box-shadow: 0 4px 2px -2px rgba(0.3, 0.3, 0.3, 0.3); 
+}
+
+.header .logo{
+    height: 40px;
+    width: 40px;
+}
+
+.header h1{
+    color: white;
+}
+
+.create-note-section{
+    height: 240px;
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.create-note-div{
+    background-color: white;
+    height: 200px;
+    width: 350px;
+    margin-top: 30px;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.3);
+}
+
+.create-note-div form{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.create-note-div form input {
+    width: 100%;
+    height: 20px;
+    outline: none;
+    border: none;
+    font-size: x-large;
+    border-bottom: 1px solid;
+}
+
+.create-note-div form textarea {
+    width: 100%;
+    height: 100px;
+    outline: none;
+    border: none;
+    margin-top: 15px;
+    font-size: large;
+}
+
+.create-note-div form button {
+    width: 5%;
+    position: absolute;
+    top: 165px;
+    height: 40px;
+    width: 40px;
+    left: 287px;
+    color: rgb(255, 225, 0);
+    border-radius: 50%;
+    border: none;
+    background-color: white;
+    font-weight: bolder;
+    font-size: xx-large;
+    box-shadow: 0px 0px 8px 0px rgba(0.3, 0.3, 0.3, 0.3); 
+}
+
+.notes-div{
+    background-color: white;
+    height: 200px;
+    width: 350px;
+    margin-top: 30px;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.3);
+}

@@ -34,6 +34,14 @@ export default function Home(){
                     <li>
                         <Link style={{textDecoration: 'none', color: 'black'}} to="/TodoList">To Do List</Link>
                     </li>
+
+                    <li>
+                        <Link style={{textDecoration: 'none', color: 'black'}} to="/Accordion">Accordion</Link>
+                    </li>
+
+                    <li>
+                        <Link style={{textDecoration: 'none', color: 'black'}} to="/GoogleKeepClone">Google Keep Clone</Link>
+                    </li>
                 </ul>
             </nav>
         </div>
