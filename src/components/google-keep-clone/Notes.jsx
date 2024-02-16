@@ -1,12 +1,20 @@
 import React from "react";
 
-export default function Notes() {
+export default function Notes(props) {
+  
+  const deleteButtonClick = () => {
+    props.delete(props.id);
+  } 
+  
   return (
     <>
-        <div className="notes-div">
-          <h3> Title </h3>
-          <p> this is content </p>
-        </div>
+      <div className="notes-div">
+        <h3> {props.title} </h3>
+        <p> {props.content} </p>
+        <button onClick={deleteButtonClick}>
+          <i class="fa-solid fa-trash-can"></i>{" "}
+        </button>
+      </div>
     </>
   );
 }
