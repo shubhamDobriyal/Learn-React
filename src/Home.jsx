@@ -42,6 +42,9 @@ export default function Home(){
                     <li>
                         <Link style={{textDecoration: 'none', color: 'black'}} to="/GoogleKeepClone">Google Keep Clone</Link>
                     </li>
+                    <li>
+                        <Link style={{textDecoration: 'none', color: 'black'}} to="/covidTracker">Covid Tracker</Link>
+                    </li>
                 </ul>
             </nav>
         </div>

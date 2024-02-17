@@ -13,6 +13,7 @@ import TodoList from './components/to-do-list/TodoList';
 import Accordion from './components/accordion/Accordion';
 import GoogleKeepClone from './components/google-keep-clone/GoogleKeepClone';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import CovidTracker from './components/state-covid-tracker/CovidTracker';
 
 
 
@@ -31,6 +32,7 @@ root.render(
         <Route path="/todoList" element={<TodoList />} />
         <Route path="/accordion" element={<Accordion />} />
         <Route path="/googleKeepClone" element={<GoogleKeepClone />} />
+        <Route path="/covidTracker" element={<CovidTracker />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

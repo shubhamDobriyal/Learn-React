@@ -19,9 +19,9 @@ export default function GoogleKeepClone(){
 
     const deleteNote = (id) => {
         setItem((existingItem) => {
-            existingItem.filter((value, index) => {
-                return index !== id;
-            })
+           return ( existingItem.filter((value, index) => {
+            return index !== id;
+        }))
         })
     }
     
@@ -30,7 +30,7 @@ export default function GoogleKeepClone(){
             <Header />
             <CreateNote fnCall={addNote}   />
             {
-                item ?.map((value, index) => {
+                item.map((value, index) => {
                     return (<Notes key={index} id={index} title={value.title} content={value.content} delete={deleteNote} />)
                 })
             }

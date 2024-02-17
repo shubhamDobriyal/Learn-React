@@ -12,7 +12,7 @@ export default function Notes(props) {
         <h3> {props.title} </h3>
         <p> {props.content} </p>
         <button onClick={deleteButtonClick}>
-          <i class="fa-solid fa-trash-can"></i>{" "}
+          <i className="fa-solid fa-trash-can"></i>{" "}
         </button>
       </div>
     </>
