@@ -7,7 +7,7 @@ export default function SearchWeatherApp() {
 
   useEffect(() => {
     const fetchApi = async () => {
-      const url = `https://api.openweathermap.org/data/2.5/weather?q=${search}&units=metric&appid=d6461526365ff6c4a728674537af118a`;
+      const url = `https://api.openweathermap.org/data/2.5/weather?q=${search}&units=metric&appid={api id}`;
       const res = await fetch(url);
       const data = await res.json();
       setCity(data.main);
