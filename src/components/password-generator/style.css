@@ -1,0 +1,17 @@
+.container{
+    background-color: black;
+    height: 100vh;
+}
+
+.input-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+button{
+    height: 25px;
+    width: 50px;
+    
+}

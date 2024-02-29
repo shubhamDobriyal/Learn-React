@@ -14,7 +14,8 @@ import Accordion from './components/accordion/Accordion';
 import GoogleKeepClone from './components/google-keep-clone/GoogleKeepClone';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import CovidTracker from './components/state-covid-tracker/CovidTracker';
-
+import PasswordGenerator from './components/password-generator/PasswordGenerator';
+import SearchWeatherApp from './components/search-weather-app/SearchWeatherApp';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -33,6 +34,8 @@ root.render(
         <Route path="/accordion" element={<Accordion />} />
         <Route path="/googleKeepClone" element={<GoogleKeepClone />} />
         <Route path="/covidTracker" element={<CovidTracker />} />
+        <Route path="/passwordGenerator" element={<PasswordGenerator />} />
+        <Route path="/searchWeatherApp" element={<SearchWeatherApp />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

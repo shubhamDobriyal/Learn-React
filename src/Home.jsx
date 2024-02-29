@@ -45,6 +45,12 @@ export default function Home(){
                     <li>
                         <Link style={{textDecoration: 'none', color: 'black'}} to="/covidTracker">Covid Tracker</Link>
                     </li>
+                    <li>
+                        <Link style={{textDecoration: 'none', color: 'black'}} to="/passwordGenerator">Password Generator</Link>
+                    </li>
+                    <li>
+                        <Link style={{textDecoration: 'none', color: 'black'}} to="/searchWeatherApp">Search Weather App</Link>
+                    </li>
                 </ul>
             </nav>
         </div>
